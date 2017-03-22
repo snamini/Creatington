@@ -1,9 +1,9 @@
 import React, { PropTypes as T } from 'react'
 import {ButtonToolbar, Button} from 'react-bootstrap'
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import AuthService from '../utils/AuthService'
-import styles from '../styles/styles.module.css'
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
+import AuthService from '../../utils/AuthService'
+import styles from '../../styles/styles.module.css'
 
 export class Login extends React.Component {
   static propTypes = {
@@ -17,7 +17,7 @@ export class Login extends React.Component {
             <div>
 {/*-------------------------Header------------------------*/}
                 <Header/>
-{/*-------------------------Register Section------------------*/}      
+{/*-------------------------Register Section------------------*/}
       <div className={styles.root}>
         <h2>Login</h2>
         <ButtonToolbar className={styles.toolbar}>
@@ -32,4 +32,3 @@ export class Login extends React.Component {
 }
 
 export default Login;
-

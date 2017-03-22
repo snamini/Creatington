@@ -1,7 +1,5 @@
 import React from 'react';
-//import { GoogleLogin} from 'react-materialize'
-// import GoogleLogin from 'react-google-login';
-
+import { GoogleLogin} from 'react-materialize'
 
 const responseGoogle = (response) => {
   console.log(response);

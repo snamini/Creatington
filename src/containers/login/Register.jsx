@@ -1,8 +1,8 @@
 // importing the component class from the react library
 import React, { Component } from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import GoogleLogin from '../components/Google';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
+import Google from '../../components/Google';
 
 
 // then we use that component class that we just imported to make our special components
@@ -38,7 +38,7 @@ class Register extends Component {
 {/*-------------------------Header------------------------*/}
                 <Header/>
 {/*-------------------------Register Section------------------*/}
-              <GoogleLogin/>
+              <Google/>
 
               <form onSubmit={this.handleSubmit}>
              <div className="form-group">

@@ -5,8 +5,8 @@ import { Route, IndexRoute } from 'react-router';
 import Home from './containers/Home';
 import Portfolio from './containers/Portfolio';
 import Messages from './containers/Messages';
-import Register from './containers/Register';
-import Login from './containers/Login';
+import Register from './containers/login/Register';
+import Login from './containers/login/Login';
 //Auth0
 import AuthService from './utils/AuthService'
 import Container from './containers/Container'

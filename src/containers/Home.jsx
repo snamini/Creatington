@@ -10,8 +10,6 @@ import DisplayCard from '../components/DisplayCard';
 import FloatBtn from '../components/FloatBtn';
 import Pagination from '../components/Pagination';
 import Footer from '../components/Footer';
-import searchBootstrap from '../components/searchBootstrap';
-import './Home.css';
 import { Row, Col} from 'react-materialize';
 // then we use that component class that we just imported to make our special components
 // // Home inherited a bunch of things from the component
