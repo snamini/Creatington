@@ -9,10 +9,10 @@ export default class MyCard extends React.Component {
       <div id="profile-page-wall-post" className="card">
         <div className="card-profile-title">
           <div className="row">
-            <div className="col s1">
-              <img src="images/avatar.jpg" alt="" className="circle responsive-img valign profile-post-uer-image" />
+            <div className="col s4">
+              <img src="assets/sample-1.jpg" alt="" className="circle responsive-img width=5% height=5%"/>
             </div>
-            <div className="col s10">
+            <div className="col s8">
               <p className="grey-text text-darken-4 margin">John Doe</p>
               <span className="grey-text text-darken-1 ultra-small">Shared publicly  -  26 Jun 2015</span>
             </div>
@@ -28,7 +28,7 @@ export default class MyCard extends React.Component {
         </div>
         <div className="card-image profile-medium">
           <div className="video-container no-controls">
-            <iframe width="640" height="360" src="https://www.youtube.com/embed/10r9ozshGVE" frameborder="0" allowfullscreen=""></iframe>
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/10r9ozshGVE"  ></iframe>
           </div>
           <span className="card-title">Card Title</span>
         </div>
@@ -42,7 +42,7 @@ export default class MyCard extends React.Component {
           </div>
           <div className="input-field col s8 margin">
             <input id="profile-comments" type="text" className="validate margin" />
-            <label for="profile-comments" className="">Comments</label>
+            <label htmlFor="profile-comments" className="">Comments</label>
           </div>
         </div>
       </div>

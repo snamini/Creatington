@@ -26,7 +26,7 @@ export default class MyStatusPost extends React.Component {
                                 <img src="images/avatar.jpg" alt="" className="circle responsive-img valign profile-image-post" />
                               </div>
                               <div className="input-field col s10">
-                                <textarea id="textarea" row="2" className="materialize-textarea"></textarea>
+                                <textarea id="textarea" className="materialize-textarea"></textarea>
                                 <label htmlFor="textarea" className="">What's on your mind?</label>
                               </div>
                             </div>
@@ -59,7 +59,7 @@ export default class MyStatusPost extends React.Component {
                                 <img src="images/avatar.jpg" alt="" className="circle responsive-img valign profile-image-post" />
                               </div>
                               <div className="input-field col s10">
-                                <textarea id="textarea" row="2" className="materialize-textarea"></textarea>
+                                <textarea id="textarea" className="materialize-textarea"></textarea>
                                 <label htmlFor="textarea" className="">Share your favorites photos!</label>
                               </div>
                             </div>
@@ -90,7 +90,7 @@ export default class MyStatusPost extends React.Component {
                                 <img src="images/avatar.jpg" alt="" className="circle responsive-img valign profile-image-post" />
                               </div>
                               <div className="input-field col s10">
-                                <textarea id="textarea" row="2" className="materialize-textarea"></textarea>
+                                <textarea id="textarea" className="materialize-textarea"></textarea>
                                 <label htmlFor="textarea" className="">Create awesome album.</label>
                               </div>
                             </div>

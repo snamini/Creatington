@@ -4,10 +4,10 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import {CardPanel, Collection, Input, Row, Col, CollectionItem, Collapsible, CollapsibleItem, Icon, Home} from 'react-materialize';
 import PortfolioCard from '../components/PortfolioCard';
-import DisplayCard from '../components/DisplayCard';
 import StatusPost from '../components/StatusPost';
 import AboutMe from '../components/AboutMe';
 import Pagination from '../components/Pagination';
+import CoverPhoto from '../components/CoverPhoto';
 class Portfolio extends Component {
   render() {
   return (
@@ -16,7 +16,7 @@ class Portfolio extends Component {
           <div>
               <Row>
                   <Col s={12}>
-                      <DisplayCard/>
+                      <CoverPhoto/>
                   </Col>
               </Row>
               <Row>
