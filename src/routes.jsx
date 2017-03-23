@@ -5,6 +5,7 @@ import { Route, IndexRoute } from 'react-router';
 import Home from './containers/Home';
 import Portfolio from './containers/Portfolio';
 import Messages from './containers/Messages';
+import Search from './containers/Search';
 import Register from './containers/login/Register';
 import Login from './containers/login/Login';
 //Auth0
@@ -18,6 +19,7 @@ export default () => {
   		<Route path="/portfolio" component={Portfolio} />,
   		<Route path="/messages" component={Messages} />,
   		<Route path="/register" component={Register} />,
-  		<Route path="/login" component={Login} />
+  		<Route path="/login" component={Login} />,
+      <Route path="/search" component={Search} />
   ];
 }

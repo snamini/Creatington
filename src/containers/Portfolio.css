@@ -8,3 +8,55 @@
   height: 200px;
   background: pink;
 }
+
+
+
+.card {
+    overflow: hidden;
+    position: relative;
+    margin: 0.5rem 0 1rem 0;
+    background-color: #fff;
+    transition: box-shadow .25s;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: inherit;
+
+}
+
+/*cover photo*/
+#profile-page-header .card-image {
+    height: 250px;
+}
+
+/*prof pic*/
+img.responsive-img, video.responsive-video {
+    max-width: 100%;
+    height: auto;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.z-depth-2 {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#profile-page-header .card-profile-image {
+    width: 110px;
+    position: absolute;
+    top: 190px;
+    z-index: 1;
+    left: 40px;
+    cursor: pointer;
+    margin: 0;
+}
+
+/*white box for info*/
+#profile-page-header .card-content {
+    margin-top: -40px;
+}
+
+.card .card-content {
+    padding: 20px;
+}
