@@ -8,6 +8,7 @@ import StatusPost from '../components/StatusPost';
 import AboutMe from '../components/AboutMe';
 import Pagination from '../components/Pagination';
 import CoverPhoto from '../components/CoverPhoto';
+import Bookme from '../components/Bookme';
 class Portfolio extends Component {
   render() {
   return (
@@ -20,11 +21,15 @@ class Portfolio extends Component {
                   </Col>
               </Row>
               <Row>
-                  <Col s={4} className="aboutme">
+                  <Col s={3} className="aboutme">
                       <CardPanel>
                           <Row>
                               <Col s={12}>
                                   <AboutMe/>
+                              </Col>
+                              <Col s={1}></Col>
+                              <Col s={11}>
+                                  <Bookme/>
                               </Col>
                           </Row>
                           <Row>
@@ -62,24 +67,16 @@ class Portfolio extends Component {
                           </Row>
                       </CardPanel>
                   </Col>
-                  <Col s={8} className="portfolio">
+                  <Col s={9} className="portfolio">
                     <CardPanel>
                       <Row>
                         <Col s={12}>
                           <StatusPost/>
                         </Col>
-                      </Row>
-                      <Row>
                         <Col s={12}>
                           <PortfolioCard/>
                         </Col>
-                      </Row>
-                      <Row>
-                        <Col s={12}>
-                          <PortfolioCard/>
-                        </Col>
-                      </Row>
-                      <Row>
+
                         <Col s={12}>
                           <PortfolioCard/>
                         </Col>
