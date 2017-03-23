@@ -29,6 +29,7 @@
     "passport-local": "*",
     "react": "^15.4.2",
     "react-bootstrap": "^0.30.8",
+    "react-date-range": "^0.9.3",
     "react-dom": "^15.4.2",
     "react-materialize": "^0.18.1",
     "react-owl-carousel": "^0.14.0",
